@@ -368,6 +368,10 @@ h2 {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+.final {
+  display: flex;
+  gap: 120px;
+}
 .footer-text {
   color: #f4f4fd;
   width: 264px;
@@ -391,4 +395,34 @@ h2 {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.social-media {
+  color: #fff;
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.border-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.icon-footer {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
