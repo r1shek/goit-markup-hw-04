@@ -157,10 +157,17 @@ h2 {
 /**--------------------Main block----------------*/
 /**--------------------Title----------------*/
 .title {
-  background: #2e2f42;
   height: 600px;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/main-backgraund.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .title-main {
   color: #fff;
@@ -224,6 +231,21 @@ h2 {
   justify-content: space-between;
   gap: 24px;
 }
+.border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  background: #f4f4fd;
+  margin-bottom: 8px;
+}
+.icon {
+  width: 64px;
+  height: 64px;
+}
 .achievement-list {
   display: flex;
   width: calc((100% - 72px) / 3);
@@ -274,13 +296,26 @@ h2 {
 }
 .team-prof {
   text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 .team-list:last-child {
   margin: 0;
 }
-
-.team-prof {
-  margin-top: 8px;
+.border-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.icon-team {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /**--------------------Portfolio---------------*/
