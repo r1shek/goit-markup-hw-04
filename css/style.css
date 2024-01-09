@@ -321,8 +321,7 @@ h2 {
 .team-list:last-child {
   margin: 0;
 }
-.border-icon {
-}
+
 .border-icon-list {
   display: flex;
   justify-content: center;
